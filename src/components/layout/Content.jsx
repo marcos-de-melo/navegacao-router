@@ -11,7 +11,7 @@ const Content = props => (
     {/* Toda essa parte está diferente da do professor, analisem as diferenças */}
     <Routes>
       <Route path="/about" element={<About />} />
-      <Route path="/param/:id" element={<Param />} />
+      <Route path="/param/:id/:id2" element={<Param />} />
       <Route path="/" exact element={<Home />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
